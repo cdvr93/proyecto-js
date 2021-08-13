@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Proyecto JavaScript</title>
+	<!-- Estilos CSS -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link id="theme" rel="stylesheet" type="text/css" href="css/green.css" />
+	<!-- Jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	  	
+  	<!-- Scripts  -->
+  	<script type="text/javascript" src="js/main.js"></script>
+  	<!-- Moments -->
+  	<script type="text/javascript" src="js/moment-with-locales.js"></script>
+  	<script type="text/javascript" src="js/moment.js"></script>
+
+
+</head>
+<body>
+	<div id="change-theme">
+		<div id="to-green"> </div>
+		<div id="to-red"> </div>
+		<div id="to-blue"> </div>
+	</div>
+	<section id="global">
+		<!-- Cabecera -->
+		<header>
+			<div id="logo">
+				<h1>Proyecto JS</h1>
+			</div>
+
+			<div class="clearfix"></div>
+
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">INICIO</a></li>
+					<li><a href="reloj.html">RELOJ</a></li>
+					<li><a href="contact.html">CONTACTO</a></li>
+					<li><a href="about.html">SOBRE MI</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<!-- Contenido -->
+		<section id="content">
+			<!-- Cargar Reloj -->
+			<div id="reloj"></div>
+			<div id="posts">
+				<!-- Cargar posts desde JSON -->
+			</div>
+				
+			<aside id="sidebar">
+				<div id="about">
+					<h4>Quien soy?</h4>
+					<img src="img/jupiter.jpg" />
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+						
+					</p>
+				</div>
+				<div id="login">
+					<h4><span>Identificate</span></h4>
+					<form>
+						<label for="name">
+							Nombre
+						</label>
+						<input type="text" name="name" id="form_name" />
+
+						<label for ="email">Email</label>
+
+						<input type="email" name="email">
+
+						<label for ="password">Password</label>
+
+						<input type="password" name="password">
+						
+
+
+
+						<input type="submit" name="Entrar" />
+					</form>
+				</div>
+			</aside> 
+			
+			<div class="clearfix"></div>
+		</section>
+	</section>
+	<footer>
+		Curso Cris Vel &copy;
+		<a href="#" class="subir">Ir arriba</a>
+	</footer>
+</body>
+</html>
